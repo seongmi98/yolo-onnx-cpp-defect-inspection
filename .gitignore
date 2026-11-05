@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+runs/
+datasets/
+
+# 모델·대용량
+*.pt
+*.onnx
+*.engine
+
+# C++ 빌드
+build/
+cmake-build-*/
+*.exe
+*.o
+
+# IDE
+.vscode/
+.idea/
